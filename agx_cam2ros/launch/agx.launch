@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="agx_cam2ros" type="agx_cam2ros_node" name="agx_cam2ros_1" args="a -d /dev/video0" />
+	<node pkg="agx_cam2ros" type="agx_cam2ros_node" name="agx_cam2ros_2" args="b -d /dev/video1" />
+	<node pkg="agx_cam2ros" type="agx_cam2ros_node" name="agx_cam2ros_3" args="c -d /dev/video2" />
+</launch>
